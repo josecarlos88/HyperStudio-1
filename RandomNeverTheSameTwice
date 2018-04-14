@@ -1,0 +1,10 @@
+
+
+
+
+prevNumber = newNumber
+let newNumber = random(10)
+
+while(prevNumber==newNumber){
+
+}

@@ -1,0 +1,143 @@
+
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  color:#000;
+}
+
+@keyframes hoverglide {
+    0% {background-color: white;}
+    20% {background-color: pink;}
+    40% {background-color: yellow;}
+    100% {background-color: lightgrey;}
+}
+
+.dropdown-menu a:hover{
+  color:#f00;
+  animation-name: hoverglide;
+  animation-duration: 5s;
+}
+.dropdown-menu a{
+  margin-left: 10px;
+}
+
+@font-face {
+font-family: "Micro";
+src: url("micro.otf");
+}
+@font-face {
+font-family: "Zabars";
+src: url("Zabars.ttf");
+}
+
+h3{
+  font-family:'Zabars';
+  font-size: calc(5vw + 5vh + .5vmin);
+  /*color: 'red';*/
+  color:#000;
+}
+h2{
+  font-family:'Zabars';
+  font-size: calc(2vw + 2vh + .5vmin);
+  /*color: 'red';*/
+  color:#000;
+}
+
+/*.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}*/
+
+/*.rollovertitle{
+  width:400px;
+  height:100px;
+  display:block;
+  background: src("titles.gif")
+}
+
+.rollovertitle:hover{
+  width:400px;
+  height:100px;
+  background: src("titles2.png")
+}*/
+
+.btn-primary {
+  border-radius: 0px;
+  font-family: 'Micro', cursive;
+  font-size: 24px;
+  color:#000;
+}
+
+a{
+  color:#000;
+}
+
+:target {
+    background-color: yellow;
+}
+
+a:hover{
+  color:#fff;
+}
+
+a:active{
+  color:#f00;
+}
+
+.btn{
+  color:#000;
+}
+
+.btn-primary:hover{
+  /*background-color: #990055 !important;*/
+  background-color: transparent;
+  background-image: url("glowbar.gif");
+  color: #fff;
+  /*color:333;*/
+}
+
+.btn-primary:selected, .btn-primary.selected{
+  background-image: url("water.gif");
+}
+
+a:selected{
+  background-image: url("water.gif");
+}
+
+#footer-placeholder{
+  background-color: #f00;
+  text-align: center;
+}
+
+#nav-placeholder{
+  background-color: #fff;
+  position: fixed;
+  /*display: inline;*/
+  width: 100%;
+}
+
+.container{
+  /*margin-top: 100px;*/
+  /*display: inline;*/
+  top: 200px;
+  /*background-color: #f4f;*/
+  position: relative;
+}
+
+.navbar{
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+body{
+  /*background-image: url("Waves.gif");*/
+}
+
+.red{
+  background-color: #cc0000;
+}
+.turquoise{
+  background-color: #40e0d0;
+}
+.olive{
+  background-color: #ffaa00;
+}
